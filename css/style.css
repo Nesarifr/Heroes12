@@ -293,7 +293,7 @@ margin: 10px;
     
     .Top-style{
         /*box*/
-        height: 162px;
+        height: min-content;
         width: 100vw;
         /*text*/
         font-size: 2rem;
