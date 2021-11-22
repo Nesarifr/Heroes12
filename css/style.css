@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: Roboto ;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size:inherit;
+}
+
+[class$="style"]{
+    background-color: #00699F;
+    box-shadow: 0px 10px 7px rgba(0,0,0,.25);
+    color: #ffffff;
+    text-decoration:none;
+}
+
+/*----- HEADER -----*/
+#descuentos {
+    /*box*/
+    background-color: #D1891C;
+    height: 61px;
+    width: 100vw;
+    /*text*/
+    font-size: 48px;
+    color: #333333;
+    line-height: 48px;
+}
+
+.Top-style{
+    /*box*/
+    height: 162px;
+    width: 100vw;
+    /*text*/
+    font-size: 72px;
+}
+
+#descuentos p{
+    /*position*/
+    position: relative;
+    left: 67px;
+    
+}
+
+.Top-style h1{
+    /*position*/
+    position: absolute;
+    left: 67px;
+    top: 99px
+}
+/*----- END HEADER -----*/
+
+/*----- CONTENT -----*/
+
+#content-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+/*----- CONTENT END-----*/
+
+/*------ HEROES BOX ------*/
+
+.Heroes-box{
+    /* flex */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* box */
+    width: 805px;
+    height: 1355px;
+    margin: 50px;
+}
+
+.corazon{
+    z-index: 2;
+    position: relative;
+    top: 110px;
+    right: 300px;
+}
+
+.Back-box{
+    background: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 67px;
+    z-index: 0;
+}
+
+.Perfil-img{
+    /* box */
+    border-radius: 50%;
+    width: 352px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    /*position*/
+    position: relative;
+    top:-270px;
+    z-index:2;
+}
+
+.text-box{
+    /* box */
+    background: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    min-height: 872px;
+    padding: 194px 44px 68px ;
+    /* position */
+    position: relative;
+    top:-420px;
+    z-index: 1;
+    /*flex*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.text-box h2{
+    color: #000000;
+    font-size: 64px;
+    height: 84px;
+    padding: 0px    ;
+    }
+
+.text-box p{
+    /* text */
+    font-size: 36px;
+    line-height: 42px;
+    color: #333333;
+    /* box */
+    
+    height: 348px;
+}
+.VerMas-style{
+    /*box*/
+    width: 346px;
+    height: 114px;
+    border-radius: 7px;
+    border: none;
+    box-shadow: none;
+    padding: 0px;
+    /* text */
+    font-size: 36px;
+    color: #F3F3F3;
+    /* position */
+    z-index:2;
+}
+
+/*------ HEROES BOX END ------*/
+
+.Footer-style{
+    font-size: 36px;
+    display: flex;
+    height: 162px;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.boton{
+    position: fixed;
+    top: 50%;
+    right: 20px;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boton span{
+    font-size: 100px;
+    color: #F3F3F3;
+    position: absolute;
+}
+
+@media (max-width:860px){
+
+/*----- HEADER -----*/
+#descuentos {
+    /*box*/
+    height: 2.5rem;
+    width: 100vw;
+    /*text*/
+    font-size: 2rem;
+    line-height: 2rem;
+}
+
+.Top-style{
+    /*box*/
+    height: 7.5rem;
+    /*text*/
+    font-size: 3rem;
+    line-height: 1rem;
+}
+#descuentos p{
+    /*position*/
+    left:10%;
+    
+}
+
+.Top-style h1{
+    /*position*/
+    left: 10%;
+}
+/*----- END HEADER -----*/
+
+
+/*------ HEROES BOX ------*/
+
+.Heroes-box{
+ /* box */
+width: 600px;
+height: 1250px;
+margin: 10px;
+
+}
+
+.corazon{
+    top: 8%;
+    right: 200px;
+}
+
+.Back-box{
+    width: 550px;
+}
+
+.Perfil-img{
+    /* box */
+    width: 300px;
+    /*position*/
+    position: relative;
+    top:-200px;
+}
+
+.text-box{
+    /* box */
+    width: 550px;
+    height: 800px;
+    /* position */
+    top:-380px;
+    align-content: space-around;
+}
+
+.text-box h2{
+    font-size: 3rem;
+    }
+
+.text-box p{
+    /* text */
+    font-size: 1.5rem;
+    /* box */
+    width: 480px;
+}
+
+/*------ HEROES BOX END ------*/
+
+.Footer-style{
+    font-size: 1.5rem;
+    height: 100px;
+
+}
+
+
+.boton{
+    position: fixed;
+    top: 50%;
+    right: 20px;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boton span{
+    font-size: 100px;
+    color: #F3F3F3;
+    position: absolute;
+}
+}
+
+@media (max-width:640px){
+
+    /*----- HEADER -----*/
+    #descuentos {
+        /*box*/
+        height: 2rem;
+        width: 100vw;
+        /*text*/
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+    
+    .Top-style{
+        /*box*/
+        height: 162px;
+        width: 100vw;
+        /*text*/
+        font-size: 2rem;
+
+    }
+    
+    #descuentos p{
+        /*position*/
+        position: relative;
+        left: 67px;
+
+    }
+    
+    .Top-style h1{
+        /*position*/
+        position: relative;
+        left: 40px;
+    }
+    /*----- END HEADER -----*/
+    
+    
+    /*------ HEROES BOX ------*/
+    
+    .Heroes-box{
+     /* box */
+    width: 300px;
+    height: 1200px;
+    margin: 10px;
+    
+    }
+    
+    .corazon{
+        top: 8%;
+        right: 0px;
+    }
+    
+    .Back-box{
+        width: 300px;
+    }
+    
+    .Perfil-img{
+        /* box */
+        width: 200px;
+        /*position*/
+        position: relative;
+        top:-85px;
+    }
+    
+    .text-box{
+        /* box */
+        width: 300px;
+        height: 1200px;
+        padding: 190px 5px 40px;
+        /* position */
+        top:-260px;
+        justify-content: space-between;
+    }
+    
+    .text-box h2{
+        font-size: 2rem;
+        height: auto;
+        display: flex;
+        }
+    
+    .text-box p{
+        /* text */
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+        /* box */
+        width: 280px;
+        height: 450px   ;
+    }
+    .VerMas-style{
+        /*box*/
+        width: 150px;
+        height: 75px;
+        border-radius: 7px;
+        border: none;
+        box-shadow: none;
+        padding: 0px;
+        /* text */
+        font-size: 2rem;
+        color: #F3F3F3;
+        /* position */
+        z-index:2;
+    }
+    
+    /*------ HEROES BOX END ------*/
+    
+    .Footer-style{
+        font-size: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        height: 162px;
+        width: 100vw;
+        align-items: center;
+        justify-content: space-around;
+    }
+}
