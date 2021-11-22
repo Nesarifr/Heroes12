@@ -34,6 +34,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 100vw;
     /*text*/
     font-size: 72px;
+    display: flex;
 }
 
 #descuentos p{
@@ -45,9 +46,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .Top-style h1{
     /*position*/
-    position: absolute;
+    position: relative;
     left: 67px;
-    top: 99px
+    align-self: center;
 }
 /*----- END HEADER -----*/
 
@@ -293,11 +294,10 @@ margin: 10px;
     
     .Top-style{
         /*box*/
-        height: min-content;
+        height: 4rem;
         width: 100vw;
         /*text*/
         font-size: 2rem;
-
     }
     
     #descuentos p{
@@ -309,7 +309,6 @@ margin: 10px;
     
     .Top-style h1{
         /*position*/
-        position: relative;
         left: 40px;
     }
     /*----- END HEADER -----*/
